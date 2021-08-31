@@ -3,7 +3,7 @@ const express = require("express");
 const morgan = require("morgan");
 const handlebars = require("express-handlebars");
 
-const SortMiddleware = require("./app/middleware/SortMiddleware");
+const SortMiddleware = require("./app/middleware/sortMiddleware.x");
 
 const app = express();
 const port = 3000;
